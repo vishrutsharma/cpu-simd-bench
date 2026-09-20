@@ -20,8 +20,4 @@ The project compares traditional **scalar operations** with manually implemented
 * AVX2
 * Intel SIMD intrinsics
 
-## Goal
-
-The goal of this project is to explore low-level CPU performance and understand how SIMD allows a processor to operate on multiple data elements with a single instruction.
-
 🚧 **Work in progress** — more SIMD experiments and optimizations will be added.
