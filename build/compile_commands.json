@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/cpu-simd-bench/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe  @CMakeFiles/cpu_simd_bench.dir/includes_CXX.rsp -g -std=gnu++20 -mavx2 -o CMakeFiles\\cpu_simd_bench.dir\\src\\main.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\cpu-simd-bench\\src\\main.cpp",
+  "file": "C:/Vishrut/Programming/PersonalProjects/cpu-simd-bench/src/main.cpp",
+  "output": "CMakeFiles/cpu_simd_bench.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/cpu-simd-bench/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe  @CMakeFiles/cpu_simd_bench.dir/includes_CXX.rsp -g -std=gnu++20 -mavx2 -o CMakeFiles\\cpu_simd_bench.dir\\src\\vector_ops.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\cpu-simd-bench\\src\\vector_ops.cpp",
+  "file": "C:/Vishrut/Programming/PersonalProjects/cpu-simd-bench/src/vector_ops.cpp",
+  "output": "CMakeFiles/cpu_simd_bench.dir/src/vector_ops.cpp.obj"
+}
+]
