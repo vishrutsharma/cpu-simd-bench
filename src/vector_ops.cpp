@@ -20,4 +20,9 @@ void add_avx2(const float* a,const float* b,float* result,std::size_t size)
         __m256 vr = _mm256_add_ps(va, vb);
         _mm256_storeu_ps(result + i, vr);
     }
+
+    for(;i< size;i++)
+    {
+        result[i] = a[i] + b[i];
+    }
 }

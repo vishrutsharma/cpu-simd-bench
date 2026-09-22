@@ -3,10 +3,23 @@
 
 #include "benchmark.hpp"
 #include "vector_ops.hpp"
+#include <cstdint>
+
 using namespace std;
+
 int main()
 {
-    constexpr std::size_t size = 16216;
+
+    vector<int> vec(4);
+
+    uintptr_t addressPointer = reinterpret_cast<uintptr_t>(vec.data());
+    cout<<"Address:"<<addressPointer<<std::dec<<endl;
+    if(addressPointer % 32 == 0)
+        cout<<"Its 32 bytes aligned";
+    else
+        cout<<"Not 32 bytes aligned";
+
+    constexpr std::size_t size = 16219;
 
     std::vector<float> a(size);
     std::vector<float> b(size);
