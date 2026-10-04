@@ -6,9 +6,14 @@ project(cpu_simd_bench
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+
 add_executable(cpu_simd_bench
     src/main.cpp
     src/vector_ops.cpp
+)
+
+target_compile_options(cpu_simd_bench PRIVATE
+    -fopt-info-vec-optimized
 )
 
 set_target_properties(cpu_simd_bench PROPERTIES
